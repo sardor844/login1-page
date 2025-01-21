@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,18 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <title>React CDN</title>
 </head>
+
 <body>
-    <div id = "root"></div>
+    <div id="root"></div>
 
     <script type="text/babel">
-    const App = () =>{
-
-return    (<div> 
-          <h1> My first React Component</h1>
-     </div>
-   )
-    };
-    const root= ReactDom.CreateRoot(document.GetElementById('root'))
-      root Render (<App/>) 
-  </script>
+        const App = () =>{ return (
+        <div>
+            <h1> My first React Component</h1>
+        </div>
+        ) }; const root= ReactDom.CreateRoot(document.GetElementById('root')) root Render (
+        <App/>)
+    </script>
 </body>
+
 </html>
